@@ -1,0 +1,402 @@
+    html, body, div, span, object, iframe,
+    h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+    abbr, address, cite, code,
+    del, dfn, em, img, ins, kbd, q, samp,
+    small, strong, sub, sup, var,
+    b, i,
+    dl, dt, dd, ol, ul, li,
+    fieldset, form, label, legend,
+    table, caption, tbody, tfoot, thead, tr, th, td,
+    article, aside, canvas, details, figcaption, figure, 
+    footer, header, hgroup, menu, nav, section, summary,
+    time, mark, audio, video {
+        margin:0;
+        padding:0;
+        border:0;
+        outline:0;
+        font-size:100%;
+        vertical-align:baseline;
+        background:transparent;
+		    line-height: 16px;
+    }
+
+    body {
+        line-height:1;
+    }
+
+    img{
+        max-width: 100%;
+    }
+
+    article,aside,details,figcaption,figure,
+    footer,header,hgroup,menu,nav,section { 
+        display:block;
+    }
+
+    nav ul {
+        list-style:none;
+    }
+
+    blockquote, q {
+        quotes:none;
+    }
+
+    blockquote:before, blockquote:after,
+    q:before, q:after {
+        content:'';
+        content:none;
+    }
+
+	.find{
+    text-decoration: none;
+    color: #2c364a;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid #8a9aad;
+	border-radius: 8px;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    margin-top: 120px;
+}
+
+.dobavit_ob {
+   
+    text-decoration: none;
+    color: #2c364a;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid #8a9aad;
+    border-radius: 8px;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    margin-top: 120px;
+
+}
+
+.background-color-red{
+	background-color: red;
+}
+
+
+.menu-forma {
+    width: 100%;
+    float: left;
+
+}
+
+.dobnovobjavl {
+    margin-bottom: 30px;
+    color: #8f8c9c;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+.kontakty {
+    color: #5d4da0;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+	text-align: center;
+    width: 370px;
+	
+}
+
+.kont_mest {
+	justify-content: space-between;
+	margin-bottom: 30px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.mestopol {
+	
+	text-align: center;
+    width: 370px;
+    color: #5d4da0;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+	
+}
+
+
+.kontaktydob1 {
+        width: 180px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    float: left;
+	 color: #3f346f;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.kontaktydob2 {
+        
+		      margin-left: 200px;
+    width: 180px;
+    text-align: center;
+    margin: 0 10px 0 0;
+    float: left;
+    color: #3f346f;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.mestopol-form {
+    width: 100%;
+    margin: 0 0 20px 0;
+    padding: 0 0 20px 0;
+    float: left;
+}
+
+.mestopol-form1 {
+	      text-align: center;
+    width: 181px;
+    float: left;
+    color: #3f346f;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.mestopol-form2 {
+        
+        
+    margin: 0 10px 0 0;
+    float: right;
+    
+    color: #3f346f;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+   
+.mestopol-form2-filtr {
+   width: 180px;
+    margin: 0 10px 0 0;
+    float: right;
+    margin-right: 20px;
+    color: #3f346f;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.harakter-form  {
+    width: 100%;
+    float: left;
+}
+
+
+.harakter2 {
+        
+            width: 280px;
+    float: right;
+    margin-right: 0px;
+    margin-top: 180px;
+    color: #3f346f;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+}
+
+.kontaktydob {
+    width: 100%;
+    
+    float: left;
+}
+
+
+
+
+.kvartirafiltr {
+	margin-left: -113px;
+	width: 393px;
+        padding: 5px;
+    background-color: #ffffff;
+    border: 2px solid #295873;
+    border-radius: 10px;
+    color: #251952;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.show_content {
+	
+	display: inline-block;
+flex-direction: row;
+vertical-align:left;
+
+flex-wrap: wrap;
+
+margin-bottom: 30px;
+margin-top: 30px;
+margin-left: 360px;
+margin-right: 20px;
+padding: 0px;
+
+  background-color: #ffffff;
+  border: 2px solid #295873;
+  border-radius: 10px;
+
+  
+  color: #251952;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+	z-index:-100;
+	
+	 width: 700px;
+    height: 280px;
+}
+
+.show_content_row {
+	display: inline-block;
+flex-direction: row;
+vertical-align: middle;
+ margin: auto;
+flex-wrap: wrap;
+	padding: 0px;
+	width: 300px;
+	height: 280px;
+}
+
+.show_content_foto {
+	
+	padding-bottom: 1px;
+	padding-left: 1px;
+	padding-top: 1px;
+	padding-right: 200px;
+	
+      height: auto!important;
+    vertical-align: top;
+
+    width: 100%;
+    height: 100%;
+   
+
+}
+
+
+.form-control {
+	
+	padding-bottom: 5px;
+}
+
+
+
+.find:hover{
+    background-color: #506d8a;
+    color: white;
+}
+
+
+
+
+.findreg{
+    text-decoration: none;
+    color: #2c364a;
+    font-size: 16px;
+    letter-spacing: 1px;
+    padding: 5px 15px 5px 15px;
+    border: 2px solid #8a9aad;
+	border-radius: 8px;
+    font-family: "lato-regular", Helvetica, Arial, sans-serif;
+    margin-top: 10px;
+	 margin-left: 17px;
+}
+
+
+.findreg:hover{
+    background-color: #506d8a;
+    color: white;
+}
+
+
+
+// добавить объявление
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* change colours to suit your needs */
+    ins {
+        background-color:#ff9;
+        color:#000;
+        text-decoration:none;
+    }
+
+    /* change colours to suit your needs */
+    mark {
+        background-color:#ff9;
+        color:#000; 
+        font-style:italic;
+        font-weight:bold;
+    }
+
+    del {
+        text-decoration: line-through;
+    }
+
+    abbr[title], dfn[title] {
+        border-bottom:1px dotted;
+        cursor:help;
+    }
+
+    table {
+        border-collapse:collapse;
+        border-spacing:0;
+    }
+
+    /* change border colour to suit your needs */
+    hr {
+        display:block;
+        height:1px;
+        border:0;   
+        border-top:1px solid #cccccc;
+        margin:1em 0;
+        padding:0;
+    }
+
+    input, select {
+        vertical-align:middle;
+    }
+	
+	#balcon,
+	#oblast{
+		width: 175px;
+	}
+	
+	/*Тут двигай кнопку куда тебе надо*/
+	.mt-20-ml-20{
+		  margin-top: 148px;
+			margin-left: 516px;
